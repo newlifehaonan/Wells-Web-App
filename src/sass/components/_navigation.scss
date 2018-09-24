@@ -1,0 +1,11 @@
+.navigation {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    font-weight: 100;
+    & > * {
+        cursor: pointer;
+        padding: 6px 0;
+    }
+}

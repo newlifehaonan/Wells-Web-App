@@ -1,0 +1,19 @@
+.header {
+    padding: 10px 10rem;
+    display: flex;
+    font-size: 1.5rem;
+    background-color: $color-primary;
+    align-items: center;
+    justify-content: left;
+
+    &__items {
+        height: 100%;
+        padding: 3px 20px;
+        text-align: center;
+        cursor: pointer;
+        &:not(:last-child) {
+            border-style: none solid none none; 
+            border-right-color: gray;
+        }
+    }
+}
